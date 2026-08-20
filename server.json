@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/antt_sifama_boleto_2via-mcp",
+  "title": "ANTT SIFAMA: Segunda Via de Boletos",
+  "description": "ANTT SIFAMA: 2nd Copy de Boletos, official-source lookup. Platform-hosted, pay per query with prepai",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/antt_sifama_boleto_2via-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_antt_sifama_boleto_2via"
+    }
+  ]
+}
